@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_timezone"
+        android:icon="@drawable/ic_timezone"
+        android:title="@string/time_zone" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/action_how_to_use"
+        android:icon="@drawable/ic_question"
+        android:title="@string/how_to_use" />
+
+    <item
+        android:id="@+id/action_information"
+        android:icon="@drawable/ic_information"
+        android:title="@string/information" />
+</menu>

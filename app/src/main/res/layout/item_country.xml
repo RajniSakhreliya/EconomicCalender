@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/_8sdp">
+
+    <ImageView
+        android:id="@+id/ivCountryFlag"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:contentDescription="@string/cd_country_flag"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flag_ae" />
+
+    <TextView
+        android:id="@+id/tvCountryName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+    <ImageView
+        android:id="@+id/ivSelected"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:contentDescription="@string/cd_country_selected"
+        android:src="@drawable/ic_done" />
+</LinearLayout>
